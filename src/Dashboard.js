@@ -323,6 +323,69 @@ function Dashboard() {
                                             </li>
                                         </ul>
                                     </li>
+                                    <hr/>
+                                    <li class="sidebar-dropdown-item">
+                                        <a role="button" class="sidebar-link has-sub" data-dropdown="authDropdown"><span class="nav-icon"><i class="fa-solid fa-globe"></i></span> <span class="sidebar-txt">GLOBAL MASTER</span></a>
+                                        <ul class="sidebar-dropdown-menu" id="authDropdown">
+                                            <li class="sidebar-dropdown-item">
+                                                <a role="button" class="sidebar-link has-sub" data-dropdown="authDropdown"><span class="nav-icon"><i class="fa-solid fa-people-roof"></i></span> <span class="sidebar-txt">Common</span></a>
+                                                <ul class="sidebar-dropdown-menu" id="userDropdown">
+                                                    <li class="sidebar-dropdown-item"><a href="dashboard-edit-profile.html" class="sidebar-link"><span class="nav-icon"><i class="fa-solid fa-flag-pennant"></i></span>Country Master</a></li>
+                                                    <li class="sidebar-dropdown-item"><a href="dashboard-edit-profile.html" class="sidebar-link"><span class="nav-icon"><i class="fa-solid fa-house-building"></i></span>State Master</a></li>
+                                                    <li class="sidebar-dropdown-item"><a href="dashboard-edit-profile.html" class="sidebar-link"><span class="nav-icon"><i class="fa-solid fa-location-dot"></i></span>District Master</a></li>
+                                                    <li class="sidebar-dropdown-item"><a href="dashboard-edit-profile.html" class="sidebar-link"><span class="nav-icon"><i class="fa-solid fa-city"></i></span>City Master</a></li>
+                                                    <li class="sidebar-dropdown-item"><a href="dashboard-edit-profile.html" class="sidebar-link"><span class="nav-icon"><i class="fa-solid fa-landmark"></i></span>Area Master</a></li>
+                                                    <li class="sidebar-dropdown-item"><a href="dashboard-edit-profile.html" class="sidebar-link"><span class="nav-icon"><i class="fa-solid fa-file-excel"></i></span>Rejection Master</a></li>
+                                                    <li class="sidebar-dropdown-item"><a href="dashboard-edit-profile.html" class="sidebar-link"><span class="nav-icon"><i class="fa-solid fa-comment-dots"></i></span>Reason Master</a></li>
+                                                    <li class="sidebar-dropdown-item"><a href="dashboard-edit-profile.html" class="sidebar-link"><span class="nav-icon"><i class="fa-solid fa-file-certificate"></i></span>Qualification Master</a></li>
+                                                    <li class="sidebar-dropdown-item"><a href="dashboard-edit-profile.html" class="sidebar-link"><span class="nav-icon"><i class="fa-solid fa-graduation-cap"></i></span>Degree Master</a></li>
+                                                    <li class="sidebar-dropdown-item"><a href="dashboard-edit-profile.html" class="sidebar-link"><span class="nav-icon"><i class="fa-solid fa-users-line"></i></span>Employee Category Master</a></li>
+                                                    <li class="sidebar-dropdown-item"><a href="dashboard-edit-profile.html" class="sidebar-link"><span class="nav-icon"><i class="fa-solid fa-user-doctor"></i></span>Doctor Category Master</a></li>
+                                                    <li class="sidebar-dropdown-item"><a href="dashboard-edit-profile.html" class="sidebar-link"><span class="nav-icon"><i class="fa-solid fa-award"></i></span>Designation Master</a></li>
+                                                    <li class="sidebar-dropdown-item"><a href="dashboard-edit-profile.html" class="sidebar-link"><span class="nav-icon"><i class="fa-solid fa-note"></i></span>Instruction Master</a></li>
+                                                    <li class="sidebar-dropdown-item"><a href="dashboard-edit-profile.html" class="sidebar-link"><span class="nav-icon"><i class="fa-solid fa-eye-dropper-half"></i></span>Dose Master</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="sidebar-dropdown-item">
+                                                <a role="button" class="sidebar-link has-sub" data-dropdown="authDropdown"><span class="nav-icon"><i class="fa-solid fa-sitemap"></i></span> <span class="sidebar-txt">Orgnization Master</span></a>
+                                                <ul class="sidebar-dropdown-menu" id="userDropdown">
+                                                    <li class="sidebar-dropdown-item"><a href="dashboard-edit-profile.html" class="sidebar-link"><span class="nav-icon"><i class="fa-solid fa-hospital"></i></span>Department Master</a></li>
+                                                    <li class="sidebar-dropdown-item"><a href="dashboard-edit-profile.html" class="sidebar-link"><span class="nav-icon"><i class="fa-solid fa-hospitals"></i></span>Sub Department</a></li>
+                                                    <li class="sidebar-dropdown-item"><a href="dashboard-edit-profile.html" class="sidebar-link">Report Release</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="sidebar-dropdown-item">
+                                                <a role="button" class="sidebar-link has-sub" data-dropdown="authDropdown"><span class="nav-icon"><i class="fa-solid fa-pen-to-square"></i></span> <span class="sidebar-txt">LIS Template</span></a>
+                                                <ul class="sidebar-dropdown-menu" id="userDropdown">
+                                                    <li class="sidebar-dropdown-item"><a href="dashboard-edit-profile.html" class="sidebar-link"><span class="nav-icon"><i class="fa-solid fa-pen-to-square"></i></span>List Workbench</a></li>
+                                                    <li class="sidebar-dropdown-item"><a href="dashboard-edit-profile.html" class="sidebar-link">Report Entry</a></li>
+                                                    <li class="sidebar-dropdown-item"><a href="dashboard-edit-profile.html" class="sidebar-link">Report Validation</a></li>
+                                                    <li class="sidebar-dropdown-item"><a href="dashboard-edit-profile.html" class="sidebar-link">Report Handover</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="sidebar-dropdown-item">
+                                                <a role="button" class="sidebar-link has-sub" data-dropdown="authDropdown"><span class="nav-icon"><i class="fa-solid fa-files"></i></span> <span class="sidebar-txt"> Report Handover</span></a>
+
+                                            </li>
+                                            <li class="sidebar-dropdown-item">
+                                                <a role="button" class="sidebar-link has-sub" data-dropdown="authDropdown"><span class="nav-icon"><i class="fa-solid fa-handshake-simple"></i></span> <span class="sidebar-txt">Out Source</span></a>
+                                                <ul class="sidebar-dropdown-menu" id="userDropdown">
+                                                    <li class="sidebar-dropdown-item"><a href="dashboard-edit-profile.html" class="sidebar-link">Out Source Pending List </a></li>
+                                                    <li class="sidebar-dropdown-item"><a href="dashboard-edit-profile.html" class="sidebar-link">pending For Sample Dispatch</a></li>
+                                                    <li class="sidebar-dropdown-item"><a href="dashboard-edit-profile.html" class="sidebar-link"> pending For Sample Upload</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="sidebar-dropdown-item">
+                                                <a role="button" class="sidebar-link has-sub" data-dropdown="authDropdown"><span class="nav-icon"><i class="fa-light fa-pen-to-square"></i></span> <span class="sidebar-txt">Workload Dashboard</span></a>
+
+                                            </li>
+                                            <li class="sidebar-dropdown-item">
+                                                <a role="button" class="sidebar-link has-sub" data-dropdown="authDropdown"><span class="nav-icon"><i class="fa-light fa-user-cog"></i></span> <span class="sidebar-txt">Sample Tracker Screen</span></a>
+
+                                            </li>
+
+                                        </ul>
+                                    </li>
 
 
 
